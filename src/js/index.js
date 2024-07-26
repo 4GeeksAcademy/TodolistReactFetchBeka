@@ -6,8 +6,12 @@ import ReactDOM from "react-dom/client";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+import MetodoGet from "./component/methodGet.jsx";
+import MetodoPost  from "./component/methodPost.jsx";
+import MetodoPut  from "./component/methodPut.jsx";
+
+
 
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
+ReactDOM.createRoot(document.getElementById('app')).render(<MetodoPut />);
 

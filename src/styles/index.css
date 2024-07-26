@@ -1,4 +1,13 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%
+}
 
+pre, p, button{
+    font-size: 20px;
+}
 /* 
 
     You can write your own styles here...
